@@ -1,0 +1,18 @@
+# 비밀 값 · 내 PC 데이터 (커밋하지 않는다)
+.streamlit/secrets.toml
+data/*.db
+
+# 받은 묶음 zip (다운로드 폴더에 둔다)
+*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# 편집기 · OS
+.vscode/
+.DS_Store
+Thumbs.db
